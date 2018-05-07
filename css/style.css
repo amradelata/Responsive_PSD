@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+ }
+
+.navbar-default .navbar-toggle
+ {
+  background-color: #202529;
+  border: none;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin:0;
+ }
+
+.navbar
+{
+  background: #373c3f;
+  border: none;
+  border-radius: 0 
+}
+ 
+.navbar-default .navbar-nav > li > a
+{
+  color: #fff
+}
+.navbar-default .navbar-nav > li > a:hover{
+  background: #ddd
+}
+.logo
+{
+  color: #fff
+}
+.hero-section
+{
+  height: 94vh;
+  background: #088da6;
+  color: #fff;
+  margin-top: -20px;
+  position: relative;
+}
+.hero-section .content
+{
+  position: absolute;
+  top: 50%;
+left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.hero-section .content h1
+{
+  font-size: 65px;
+  margin-bottom: 50px
+}
+
+.hero-section .content span
+{
+  font-size: 30px;
+  opacity: 0.6;
+  margin-right: 350px
+}
+
+
+.left
+{
+  background: #27212c;
+  color: #9988a7;
+  /*height: 240px;*/
+  padding: 80px;
+  position: relative;
+
+}
+.left p
+{
+  font-size: 30px;
+/*  margin-top: 100px;
+  margin-left: 200px;*/
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.right
+{
+  background: #bc3183;
+  /*height: 240px;*/
+  padding: 80px;
+  position: relative;
+}
+
+.right i
+{
+  color: #fff;
+  font-size: 40px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*.three
+{
+  margin: 0;
+}*/
+.three .left-section
+{
+  background: #5b0fa1;
+  /*height: 295px;*/
+  padding: 149px;
+  position: relative;
+  display: inline-block;
+
+}
+
+
+
+.three .left-section i
+{
+  color: #fff;
+  font-size: 40px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.three img
+{
+/*  width: 23.333%;
+  height: 295px;
+  line-height: 0*/
+
+}
+
+
+
+
+.paragraph
+{
+  background: #ddd;
+  padding: 30px
+}
+
+.paragraph .content h2
+{
+  color: #088ca5;
+  margin-bottom: 25px
+}
+
+
+.paragraph .content p
+{
+  line-height: 30px;
+  margin-bottom: 50px
+}
+
+
+
+@media (max-width: 480px){
+  .hero-section .content h1
+  {
+    font-size: 50px;
+    margin-left: 45px;
+  }
+  .hero-section .content span
+  {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+}
