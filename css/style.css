@@ -6,6 +6,11 @@ body {
   margin: 0;
  }
 
+ i
+ {
+  cursor: pointer;
+ }
+
 .navbar-default .navbar-toggle
  {
   background-color: #202529;
@@ -36,7 +41,7 @@ body {
 .hero-section
 {
   height: 94vh;
-  background: #088da6;
+  background-image: linear-gradient(to left top, #078aa4, #0994ad, #0d9eb5, #12a9be, #18b3c6);
   color: #fff;
   margin-top: -20px;
   position: relative;
@@ -67,8 +72,8 @@ left: 50%;
 {
   background: #27212c;
   color: #9988a7;
-  /*height: 240px;*/
-  padding: 80px;
+  height: 240px;
+  /*padding: 80px;*/
   position: relative;
 
 }
@@ -85,19 +90,21 @@ left: 50%;
 .right
 {
   background: #bc3183;
-  /*height: 240px;*/
-  padding: 80px;
-  position: relative;
+  height: 240px;
+  display: flex;
+  /*padding: 80px;*/
+  /*position: relative;*/
 }
 
 .right i
 {
   color: #fff;
   font-size: 40px;
-  position:absolute;
+  margin:auto;
+/*  position:absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
 }
 
 /*.three
@@ -107,11 +114,10 @@ left: 50%;
 .three .left-section
 {
   background: #5b0fa1;
-  /*height: 295px;*/
-  padding: 149px;
-  position: relative;
-  display: inline-block;
-
+  height: 400px;
+  /*padding: 149px;*/
+  /*position: relative;*/
+  display: flex;
 }
 
 
@@ -120,25 +126,21 @@ left: 50%;
 {
   color: #fff;
   font-size: 40px;
-  position:absolute;
+/*  position:absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+  margin:auto;
 
 }
 
-
-.three img
+.asa
 {
-/*  width: 23.333%;
-  height: 295px;
-  line-height: 0*/
-
+  margin:0;
+  height: 400px;
+  background-size: cover;
+  background-position: center, center; 
 }
-
-
-
-
 .paragraph
 {
   background: #ddd;
@@ -155,7 +157,8 @@ left: 50%;
 .paragraph .content p
 {
   line-height: 30px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  margin-left: -15px;
 }
 
 
@@ -166,10 +169,18 @@ left: 50%;
     font-size: 50px;
     margin-left: 45px;
   }
+  .hero-section .content h1
+  {
+    margin-left: 0;
+  }
   .hero-section .content span
   {
     font-size: 25px;
-    margin-left: 30px;
+    margin-right: 0
+  }
+  .hero-section .content i
+  {
+    display: none;
   }
 
 }
